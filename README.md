@@ -1,4 +1,4 @@
-# Customer Churn Prediction
+<img width="424" height="331" alt="image" src="https://github.com/user-attachments/assets/251ecad9-e397-4d89-af81-18240822806b" /># Customer Churn Prediction
 This project focuses on predicting whether a customer is likely to churn(or leave a service) using machine learning techniques. The main aim is to understand and showcase how different models makes decision, how their performance varies and what differentiates them.Explores how combining models can improve overall predictions.
 
 **THE DATASET**
@@ -34,19 +34,19 @@ The columns Age and age_group (0.92 correlation) as well as CreditScore and prod
 
 Model 1- LOGISTIC REGRESSION
 
-Accuracy: 0.68
--chosen for simplicity
-The model slightly better than it did with the data without smote.
+Accuracy: **0.68**
+,chosen for simplicity
+.The model slightly better than it did with the data without smote.
 
 Model 2- RANDOM FOREST
 
-Accuracy: 0.80
-Ensemble of decision trees. Handles non-linear relationships much better.
+Accuracy: **0.80**
+,Ensemble of decision trees. Handles non-linear relationships much better.
 
 Model 3- XGBOOST
 
-Accuracy: 0.81
-Gradient Boosting builds trees sequentially and outperformed the other two after hyperparameter tuning.
+Accuracy: **0.81**
+,Gradient Boosting builds trees sequentially and outperformed the other two after hyperparameter tuning.
 
 **HYPERPARAMETER TUNING**
 
