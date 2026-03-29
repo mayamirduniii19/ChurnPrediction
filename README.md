@@ -69,16 +69,17 @@ The rule based logic worked pretty good achieveing an accuracy of 73%
 
 <img width="700" height="286" alt="image" src="https://github.com/user-attachments/assets/b9f36cba-6963-4e52-a8c6-2ffd7c07a64d" />
 
+
 <img width="700" height="336" alt="image" src="https://github.com/user-attachments/assets/100c955b-7ffc-4334-8b28-a1a600df92e7" />
 
 
 **FINAL INSIGHTS:**
 
 Tuned XGBoost is the best working model.
--Had the highest recall for churners:0.71
--best F1 Score- 0.60
--The train-test gap was reasonable
--Hit highest PR-AUC:0/69
+1. the highest recall for churners:0.71
+2. best F1 Score- 0.60
+3. The train-test gap was reasonable
+4. Hit highest PR-AUC:0.69
 
 The key improvement came from the tuning on the scaled original data rather than the smote resampled data, allowing model to find the best parameters that genralise much better.
 
