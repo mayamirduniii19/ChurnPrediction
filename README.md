@@ -76,8 +76,8 @@ The rule based logic worked pretty good achieveing an accuracy of 73%
 **FINAL INSIGHTS:**
 
 Tuned XGBoost is the best working model.
-1. the highest recall for churners:0.71
-2. best F1 Score- 0.60
+1. The highest recall for churners:0.71
+2. Best F1 Score: 0.60
 3. The train-test gap was reasonable
 4. Hit highest PR-AUC:0.69
 
