@@ -61,7 +61,8 @@ Rules:
 The rule based logic worked pretty good achieveing an accuracy of 73%
 
 **Model Comparisons:**
-<img width="200" height="286" alt="image" src="https://github.com/user-attachments/assets/b9f36cba-6963-4e52-a8c6-2ffd7c07a64d" />
+
+<img width="700" height="286" alt="image" src="https://github.com/user-attachments/assets/b9f36cba-6963-4e52-a8c6-2ffd7c07a64d" />
 
 
 
