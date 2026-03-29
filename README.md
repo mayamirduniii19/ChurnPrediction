@@ -10,7 +10,7 @@ Class Distribution : 80% No churn, 20% Churn - Imbalance
 Null and Missing Values: None
 Column Mapping-columns were renamed to match the requirements of the task.
 
-**Steps:**
+**STEPS:**
 1. Data Loading and Cleaning - loaded the data and checked for missing values. Removed irrelevant columns and converted the catrgorical data into numeric data.
 2. Feature Engineering -Created new features to capture combined patterns of the data.
 3. Class Imbalance Handling- identified class imbalance and applied SMOTE on the rescaled training data.
@@ -20,7 +20,7 @@ Column Mapping-columns were renamed to match the requirements of the task.
 7. Rule-Based Logic- built a rules based engine for the prediction.
 8. Model Comparison and Conclusion.
 
-**Feature Engineering**
+**FEATURE ENGINEERING**
 
 Individual features showed weak correlation with Churn.
 4 new features were created:
@@ -46,12 +46,14 @@ Accuracy: 0.81
 Gradient Boosting builds trees sequentially and outperformed the other two after hyperparameter tuning.
 
 **HYPERPARAMETER TUNING**
+
 RandomizedSearchCV was used.
 Initially tuned on SMOTE resampled data which lead to poor generalisation as the parametrs for the synthtic data.
 Tried to modify it by tuning the model on the scaled data which learns the best parametrs based on the actual patterns and then retrained models in SMOTE data for class balancing.
 
 
 **RULE BASED LOGIC**
+
 A rule-based system derived from the correlation analysis and EDA. 
 Rules:
 1. Customer Aged 45+ and who are inactive would probably churn
@@ -60,13 +62,14 @@ Rules:
 4. Low engagement that is they have too low purchases and they are an inactive member.
 The rule based logic worked pretty good achieveing an accuracy of 73%
 
-**Model Comparisons:**
+**MODEL COMPARISONS:**
 
 <img width="700" height="286" alt="image" src="https://github.com/user-attachments/assets/b9f36cba-6963-4e52-a8c6-2ffd7c07a64d" />
 
 
 
-**Final Insights:**
+**FINAL INSIGHTS:**
+
 Tuned XGBoost is the best working model.
 -Had the highest recall for churners:0.71
 -best F1 Score- 0.60
