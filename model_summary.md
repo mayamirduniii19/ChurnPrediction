@@ -16,7 +16,9 @@ HYPERPARAMETER TUNING
 RandomizedSearchCV was used.
 Initially tuned on SMOTE resampled data which lead to poor generalisation as the parametrs for the synthtic data.
 Tried to modify it by tuning the model on the scaled data which learns the best parametrs based on the actual patterns and then retrained models in SMOTE data for class balancing.
-Rule Based Logic
+<img width="424" height="331" alt="image" src="https://github.com/user-attachments/assets/2a3225c3-4ea0-4eef-b539-b580ef876ba8" />
+
+**Rule Based Logic**
 A rule-based system derived from the correlation analysis and EDA. 
 Rules:
 1. Customer Aged 45+ and who are inactive would probably churn
