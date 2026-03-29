@@ -61,10 +61,8 @@ Rules:
 The rule based logic worked pretty good achieveing an accuracy of 73%
 
 **Model Comparisons:**
-Model	                Accuracy	Precision(Churn) 	 Recall(Churn)    F1 Score
-Logistic Regression	      0.68	    0.90	            0.36	          0.47
-Random Forest (Tuned)	    0.80	    0.52	            0.70	          0.58
-XGBoost (Tuned)	          0.81	    0.52	            0.71	          0.60
+<img width="200" height="286" alt="image" src="https://github.com/user-attachments/assets/b9f36cba-6963-4e52-a8c6-2ffd7c07a64d" />
+
 
 
 **Final Insights:**
