@@ -33,15 +33,18 @@ The columns Age and age_group (0.92 correlation) as well as CreditScore and prod
 **MODELS:**
 
 Model 1- LOGISTIC REGRESSION
+
 Accuracy: 0.68
 -chosen for simplicity
 The model slightly better than it did with the data without smote.
 
 Model 2- RANDOM FOREST
+
 Accuracy: 0.80
 Ensemble of decision trees. Handles non-linear relationships much better.
 
 Model 3- XGBOOST
+
 Accuracy: 0.81
 Gradient Boosting builds trees sequentially and outperformed the other two after hyperparameter tuning.
 
