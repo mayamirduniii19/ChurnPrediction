@@ -1,4 +1,4 @@
-<img width="424" height="331" alt="image" src="https://github.com/user-attachments/assets/251ecad9-e397-4d89-af81-18240822806b" /># Customer Churn Prediction
+# Customer Churn Prediction
 This project focuses on predicting whether a customer is likely to churn(or leave a service) using machine learning techniques. The main aim is to understand and showcase how different models makes decision, how their performance varies and what differentiates them.Explores how combining models can improve overall predictions.
 
 **THE DATASET**
